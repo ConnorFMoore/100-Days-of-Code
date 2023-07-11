@@ -12,3 +12,16 @@ print(round(c+d))
 
 ####################################
 #Write your code below this line 👇
+
+
+#Float will take the inputed string and convert it to a useable number
+#That allows the variables used in arithmatic
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+c = float(height)
+d = float(weight)
+print(round(d / (c * c)))
+#Write your code below this line 👇
