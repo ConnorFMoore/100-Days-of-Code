@@ -33,3 +33,17 @@ age = input("What is your current age? ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+days_total = 365*90
+weeks_total = 52*90
+months_total = 12*90
+
+days_value = int(age)*365
+weeks_value = int(age)*52
+month_value = int(age)*12
+
+personal_days = days_total - days_value
+personal_weeks = weeks_total - weeks_value
+personal_months = months_total - month_value
+
+
+print(f"You have {personal_days} days, {personal_weeks} weeks, and {personal_months} months left.")
