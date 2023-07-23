@@ -21,7 +21,15 @@ height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
+
+#Write your code below this line 👇
 c = float(height)
 d = float(weight)
 print(round(d / (c * c)))
+
+#Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
 #Write your code below this line 👇
